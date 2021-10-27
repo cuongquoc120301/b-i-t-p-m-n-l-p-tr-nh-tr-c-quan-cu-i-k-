@@ -1,0 +1,166 @@
+﻿<Window x:Class="TH_TrueMilk.QuanLiBanHang"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TH_TrueMilk"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="TH TRUE MILK" Height="700" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid  RenderTransformOrigin="0.57,0.179">
+        <Border CornerRadius="25" Margin="0,0,0,10" BorderBrush="Red" Background="black"/>
+        <Border CornerRadius="25" Margin="228,0,0,10" BorderBrush="Red" Background="#FF65B4A9" HorizontalAlignment="Left" Width="754"/>
+        <Border CornerRadius="25" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="88" Margin="242,0,0,0" VerticalAlignment="Top" Width="727" Background="White"/>
+        <Label Content="Xin chào" HorizontalAlignment="Left" Margin="274,27,0,593" Width="113" FontSize="22" RenderTransformOrigin="0.959,0.393" FontWeight="Bold"/>
+        <Label Content="Đỗ Thành Chiến" HorizontalAlignment="Left" Margin="387,33,0,602" Width="136" FontSize="16" RenderTransformOrigin="0.959,0.393"/>
+        <ToggleButton
+  Content="{materialDesign:PackIcon Kind=Heart, Size=21}"
+  Style="{StaticResource MaterialDesignFlatPrimaryToggleButton}"
+  ToolTip="MaterialDesignFlatPrimaryToggleButton"
+  IsChecked="True" Margin="528,27,413,593" Height="Auto" Width="Auto" />
+        <Label Content="Tài Khoản" Margin="781,33,103,581" FontWeight="Bold" FontSize="16"/>
+        <materialDesign:PackIcon Kind="AccountReactivate" Height="Auto" Width="56" RenderTransformOrigin="0.929,0.571" Margin="889,13,0,593" VerticalAlignment="Stretch" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Trang Chủ"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,94,764,527" Height="Auto" Click="TrangChu_Click" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Bán Hàng"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,147,764,474" Height="Auto" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Sản Phẩm"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,200,764,422" Height="Auto" Click="SanPham_Click_1" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Nhân Viên"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,252,764,369" Height="Auto" Click="NhanVien_Click_2" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Khách Hàng"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,305,764,316" Height="Auto" Click="KhachHang_Click_3" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Kho"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,358,764,258" Height="Auto" Click="Kho_Click_4" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Đăng Xuất"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,416,764,200" Height="Auto" Click="DangXuat_Click_5"  />
+        <Grid Margin="244,237,558,227">
+            <Image Name="logo" Grid.Column="0" Source="D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\Images\logo.png" Margin="-203,-240,231,353" OpacityMask="#FFD4A21D" ></Image>
+        </Grid>
+        <Button Content="" HorizontalAlignment="Left" Margin="889,-51,0,0" VerticalAlignment="Top" Width="75" Height="133"  Background="{x:Null}" BorderBrush="{x:Null}" Click="TaiKhoan_Click"/>
+        <Border CornerRadius="25" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="216" Margin="244,107,0,0" VerticalAlignment="Top" Width="727" Background="White"/>
+        <Label Content="Tên khách hàng:" Margin="274,140,581,474" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Tên sản phẩm:" Margin="620,200,232,414" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Ngày bán hàng:" Margin="274,268,578,346" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Loại sản phẩm:" Margin="274,202,581,412" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Tên nhân viên:" Margin="616,140,239,474" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Số lượng:" Margin="620,268,264,346" FontWeight="Bold" FontSize="16"/>
+        <DatePicker
+  materialDesign:HintAssist.Hint="Pick Date"
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}" Margin="411,248,401,368" FontSize="16" Height="53" />
+        <ComboBox
+  materialDesign:HintAssist.Hint="Search"
+  materialDesign:HintAssist.HintOpacity=".26"
+  IsEditable="True" Margin="411,180,389,449" FontSize="16">
+            <ComboBoxItem
+    Content="Apple" />
+            <ComboBoxItem
+    Content="Banana" />
+            <ComboBoxItem
+    Content="Pear" />
+            <ComboBoxItem
+    Content="Orange" />
+        </ComboBox>
+        <ComboBox
+  materialDesign:HintAssist.Hint="Search"
+  materialDesign:HintAssist.HintOpacity=".26"
+  IsEditable="True" Margin="411,122,389,507" FontSize="16">
+            <ComboBoxItem
+    Content="Apple" />
+            <ComboBoxItem
+    Content="Banana" />
+            <ComboBoxItem
+    Content="Pear" />
+            <ComboBoxItem
+    Content="Orange" />
+        </ComboBox>
+        <ComboBox
+  materialDesign:HintAssist.Hint="Search"
+  materialDesign:HintAssist.HintOpacity=".26"
+  IsEditable="True" Margin="753,122,47,507" FontSize="16">
+            <ComboBoxItem
+    Content="Apple" />
+            <ComboBoxItem
+    Content="Banana" />
+            <ComboBoxItem
+    Content="Pear" />
+            <ComboBoxItem
+    Content="Orange" />
+        </ComboBox>
+        <ComboBox
+  materialDesign:HintAssist.Hint="Search"
+  materialDesign:HintAssist.HintOpacity=".26"
+  IsEditable="True" Margin="753,180,47,449" FontSize="16">
+            <ComboBoxItem
+    Content="Apple" />
+            <ComboBoxItem
+    Content="Banana" />
+            <ComboBoxItem
+    Content="Pear" />
+            <ComboBoxItem
+    Content="Orange" />
+        </ComboBox>
+        <Button
+  Style="{DynamicResource MaterialDesignFloatingActionMiniButton}"
+  materialDesign:ShadowAssist.ShadowDepth="Depth1"
+  Content="Thêm" Margin="865,248,47,350" FontSize="24" FontWeight="Bold" Height="Auto" Width="Auto" Background="#FF65B4A9" />
+
+        <DataGrid
+  ItemsSource="{Binding Items3}"
+  CanUserSortColumns="False"
+  CanUserAddRows="False"
+  materialDesign:DataGridAssist.CellPadding="4 2 2 2"
+  materialDesign:DataGridAssist.ColumnHeaderPadding="4 2 2 2" Margin="244,341,23,67" FontSize="20" FontFamily="Arial" FontWeight="Bold" EnableColumnVirtualization="True" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" FontSize="16" Header="Mã sản phẩm" Width="150"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" FontSize="16" Header="Tên sản phẩm" Width="150"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" FontWeight="Bold" FontSize="16" Header="Số lượng" Width="150"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" FontWeight="Bold" FontSize="16" Header="Đơn giá" Width="150"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" FontWeight="Bold" FontSize="16" Header="Thành tiền" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Margin="809,607,23,25">
+            <Button
+    Style="{StaticResource MaterialDesignRaisedButton}"
+    materialDesign:ButtonProgressAssist.Value="-1"
+    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+    materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+    Content="Hóa đơn"
+    Margin="45,0,0,-13"
+    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Height="Auto" />
+        </Grid>
+        <Grid>
+            <TextBox Margin="751,255,155,372" Text="0" FontSize="16"></TextBox>
+        </Grid>
+        <Button
+    Style="{StaticResource MaterialDesignRaisedButton}"
+    materialDesign:ButtonProgressAssist.Value="-1"
+    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+    materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+    Content="Thanh toán"
+    Margin="738,607,141,10"
+    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Height="Auto" />
+
+    </Grid>
+</Window>

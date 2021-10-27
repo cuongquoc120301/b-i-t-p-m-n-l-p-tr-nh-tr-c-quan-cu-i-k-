@@ -1,0 +1,96 @@
+﻿<Window x:Class="TH_TrueMilk.TrangChu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TH_TrueMilk"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="TrangChu" Height="700" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid RenderTransformOrigin="0.57,0.179">
+        <Border CornerRadius="25" Margin="0,0,0,10" BorderBrush="Red" Background="black"/>
+        <Border CornerRadius="25" Margin="228,0,0,10" BorderBrush="Red" Background="#FF65B4A9" HorizontalAlignment="Left" Width="754"/>
+        <Border CornerRadius="25" BorderBrush="Black" Height="72" Margin="244,10,26,0" VerticalAlignment="Top" Background="white">
+            <Label Content="Tài Khoản" Margin="560,20,69,0" FontWeight="Bold" FontSize="16"/>
+        </Border>
+        <Border CornerRadius="25" BorderBrush="Black" Height="131" Margin="244,87,26,0" VerticalAlignment="Top" Background="white"/>
+        <Label Content="Xin chào" HorizontalAlignment="Left" Margin="274,27,0,593" Width="113" FontSize="22" RenderTransformOrigin="0.959,0.393" FontWeight="Bold"/>
+        <Label Content="Đỗ Thành Chiến" HorizontalAlignment="Left" Margin="387,33,0,602" Width="136" FontSize="16" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="Sữa tươi sạch là con đường duy nhất" HorizontalAlignment="Left" Margin="274,152,0,459" Width="527" FontSize="16" RenderTransformOrigin="0.959,0.393"/>
+        <ToggleButton
+  Content="{materialDesign:PackIcon Kind=Heart, Size=21}"
+  Style="{StaticResource MaterialDesignFlatPrimaryToggleButton}"
+  ToolTip="MaterialDesignFlatPrimaryToggleButton"
+  IsChecked="True" Margin="528,27,413,593" Height="Auto" Width="Auto" />
+        <Label Content="TH TRUE MILK" HorizontalAlignment="Left" Margin="274,98,0,522" Width="220" FontSize="30" RenderTransformOrigin="0.959,0.393" FontWeight="Bold"/>
+        <Label Content="Một số sản phẩm nổi bật" HorizontalAlignment="Left" Margin="421,218,0,383" Width="408" FontSize="24" RenderTransformOrigin="0.959,0.393" FontWeight="Bold"/>
+        <Label Content="Sữa tươi tiệt trùng" HorizontalAlignment="Left" Margin="383,274,0,355" Width="194" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="Sữa chua có đường" HorizontalAlignment="Left" Margin="798,510,0,113" Width="194" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="Trà xanh vị chanh" HorizontalAlignment="Left" Margin="228,475,0,154" Width="194" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="Sữa chua YOGUST " HorizontalAlignment="Left" Margin="689,313,0,316" Width="194" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="nguyên chất" HorizontalAlignment="Left" Margin="401,313,0,309" Width="140" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="24.000 đ" HorizontalAlignment="Left" Margin="842,556,0,73" Width="140" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="9.000 đ" HorizontalAlignment="Left" Margin="262,524,0,105" Width="140" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="9.000 đ" HorizontalAlignment="Left" Margin="730,396,0,233" Width="140" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="34.000 đ" HorizontalAlignment="Left" Margin="421,365,0,264" Width="140" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <Label Content="hương dâu" HorizontalAlignment="Left" Margin="717,353,0,273" Width="112" FontSize="20" RenderTransformOrigin="0.959,0.393"/>
+        <materialDesign:PackIcon Kind="AccountReactivate" Height="Auto" Width="56" RenderTransformOrigin="0.929,0.571" Margin="889,13,0,593" VerticalAlignment="Stretch" />
+        <Border CornerRadius="25" Margin="0,98,764,10" BorderBrush="Red" Background="black"/>
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Trang Chủ"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,94,764,527" Height="Auto" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Bán Hàng"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,147,764,474" Height="Auto" Click="BanHang_Click" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Sản Phẩm"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,200,764,422" Height="Auto" Click="SanPham_Click_1" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Nhân Viên"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,252,764,369" Height="Auto" Click="NhanVien_Click_1" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Khách Hàng"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,305,764,316" Height="Auto" Click="KhachHang_Click_1" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Quản Lí Kho"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,358,764,258" Height="Auto" Click="Kho_Click_2" />
+        <RepeatButton
+  ToolTip="Resource name: MaterialDesignRaisedButton"
+  Content="Đăng Xuất"
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="0,417,764,199" Height="Auto" Click="DangXuat_Click_1" />
+        <Grid Margin="244,237,558,227">
+            <Image Grid.Column="0" Source="D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\Images\1.png" Margin="-10,17,10,-17" ></Image>
+            <Image Grid.Column="0" Source="D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\Images\2.png" Margin="373,227,-373,-227" ></Image>
+            <Image Grid.Column="0" Source="D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\Images\3.png" Margin="106,227,-106,-227" ></Image>
+            <Image Grid.Column="0" Source="D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\Images\4.png" Margin="301,22,-301,-22" ></Image>
+
+        </Grid>
+        <materialDesign:RatingBar
+  x:Name="ReadOnlyRatingBar1"
+  Value="5"
+  IsReadOnly="True" Margin="401,407,451,213" />
+        <materialDesign:RatingBar
+  x:Name="ReadOnlyRatingBar2"
+  Value="5"
+  IsReadOnly="True" Margin="712,286,140,344" />
+        <materialDesign:RatingBar
+  x:Name="ReadOnlyRatingBar3"
+  Value="5"
+  IsReadOnly="True" Margin="826,473,26,133" />
+        <materialDesign:RatingBar
+  x:Name="ReadOnlyRatingBar4"
+  Value="5"
+  IsReadOnly="True" Margin="244,582,608,24" />
+        <Grid Margin="244,237,558,227">
+            <Image Name="logo" Grid.Column="0" Source="D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\Images\logo.png" Margin="-203,-240,231,353" OpacityMask="#FFD4A21D" ></Image>
+        </Grid>
+        <Button Content="" HorizontalAlignment="Left" Margin="889,-51,0,0" VerticalAlignment="Top" Width="75" Height="133" Click="TaiKhoan_Click" Background="{x:Null}" BorderBrush="{x:Null}"/>
+    </Grid>
+
+</Window>

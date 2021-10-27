@@ -1,0 +1,79 @@
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\bin\Debug\TH_TrueMilk.exe.config
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\bin\Debug\TH_TrueMilk.exe
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\bin\Debug\TH_TrueMilk.pdb
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignColors.dll
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignColors.pdb
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.csprojAssemblyReference.cache
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\MainWindow.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\App.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk_MarkupCompile.cache
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk_MarkupCompile.lref
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\App.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\MainWindow.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.g.resources
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.Properties.Resources.resources
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.csproj.GenerateResource.cache
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.csproj.CoreCompileInputs.cache
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.csproj.CopyComplete
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.exe
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.pdb
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\Login.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\Login.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TrangChu.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TrangChu.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\ChangePassword.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TaiKhoan.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\ChangePassword.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\TaiKhoan.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiBanHang.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiBanHang.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiNhanVien.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiSanPham.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiNhanVien.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiSanPham.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiKhachHang.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiKho.g.cs
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiKhachHang.baml
+D:\Lập trình C#\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiKho.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\bin\Debug\TH_TrueMilk.exe.config
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\bin\Debug\TH_TrueMilk.exe
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\bin\Debug\TH_TrueMilk.pdb
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignColors.dll
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.csproj.AssemblyReference.cache
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\ChangePassword.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\Login.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\MainWindow.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiBanHang.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiKhachHang.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiKho.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiNhanVien.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiSanPham.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TaiKhoan.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TrangChu.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\App.g.cs
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk_MarkupCompile.cache
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk_MarkupCompile.lref
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\App.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\ChangePassword.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\Login.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\MainWindow.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiBanHang.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiKhachHang.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiKho.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiNhanVien.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\QuanLiSanPham.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TaiKhoan.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TrangChu.baml
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.g.resources
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.Properties.Resources.resources
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.csproj.GenerateResource.cache
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.csproj.CoreCompileInputs.cache
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.exe
+C:\Users\Cuong Quoc\Downloads\TH_TrueMilk\TH_TrueMilk\TH_TrueMilk\obj\Debug\TH_TrueMilk.pdb
